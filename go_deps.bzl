@@ -380,3 +380,10 @@ def go_deps():
         sum = "h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=",
         version = "v0.0.0-20200804184101-5ec99f83aff1",
     )
+    go_repository(
+        name="com_github_connectrpc_connect_go",
+        build_file_proto_mode = "disable_global",
+        importpath="github.com/connectrpc/connect-go",
+        version = "v1.16.2",
+        sum = "h1:p6zTpbTTa4OnQrP7LcKSL1r83RbVdVo4GC4d7no5Cww=",
+    )

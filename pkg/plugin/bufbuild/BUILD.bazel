@@ -4,6 +4,7 @@ go_library(
     name = "bufbuild",
     srcs = [
         "connect_es_plugin.go",
+        "connect_go_plugin.go",
         "es_plugin.go",
     ],
     importpath = "github.com/stackb/rules_proto/pkg/plugin/bufbuild",

@@ -22,6 +22,12 @@ proto_plugin(
     visibility = ["//visibility:public"],
 )
 
+proto_plugin(
+    name = "connect-go",
+    tool = "@com_github_connectrpc_connect_go//cmd/protoc-gen-connect-go:protoc-gen-connect-go",
+    visibility = ["//visibility:public"],
+)
+
 filegroup(
     name = "all_files",
     testonly = True,
